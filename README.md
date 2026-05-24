@@ -1,6 +1,6 @@
 # PHP Clothing Store MVC
 
-A PHP MVC web application for an online clothing store with authentication, admin panel, product management, shopping cart, orders, statistics, and MySQL database integration.
+A full-stack PHP MVC web application for an online clothing store featuring authentication, admin dashboard, product management, shopping cart functionality, orders, statistics, and MySQL database integration.
 
 ---
 
@@ -16,6 +16,7 @@ A PHP MVC web application for an online clothing store with authentication, admi
 - Twig templating support
 - Routing system
 - CRUD operations
+- Responsive web interface
 
 ---
 
@@ -58,11 +59,11 @@ composer install
 
 ### 3. Import the database
 
-Import `database.sql` into MySQL.
+Import `database.sql` into MySQL using phpMyAdmin or MySQL CLI.
 
 ### 4. Configure database settings
 
-Edit configuration files with your database credentials.
+Edit configuration files with your local database credentials.
 
 ### 5. Start the server
 
@@ -70,15 +71,41 @@ Edit configuration files with your database credentials.
 php -S localhost:8000
 ```
 
+Open the application in your browser:
+
+```bash
+http://localhost/php-clothing-store-mvc
+```
+
 ---
 
 ## Screenshots
 
-Add screenshots of:
-- Home page
-- Admin dashboard
-- Product page
-- Shopping cart
+### Home Page
+Main landing page of the online clothing store with featured products and navigation.
+
+![Home Page](screenshots/pic1.png)
+
+---
+
+### Product Catalog
+Product browsing page with categories, filtering, and detailed product listings.
+
+![Products](screenshots/pic2.png)
+
+---
+
+### Shopping Cart
+Shopping cart system where users can manage selected products before checkout.
+
+![Cart](screenshots/pic3.png)
+
+---
+
+### Admin Dashboard
+Administrative dashboard for managing products, orders, and store statistics.
+
+![Admin Panel](screenshots/pic4.png)
 
 ---
 
@@ -93,6 +120,7 @@ Through this project, I improved my understanding of:
 - CRUD operations
 - PHP routing and templating
 - Building scalable web applications
+- Structuring maintainable backend systems
 
 ---
 
