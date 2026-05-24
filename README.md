@@ -95,19 +95,17 @@ Product browsing page with categories, filtering, and detailed product listings.
 
 ---
 
-### Shopping Cart
-Shopping cart system where users can manage selected products before checkout.
+### Shopping Cart & User System
+User registration and shopping cart functionality with authentication support and customer interaction features.
 
 ![Cart](screenshots/pic3.png)
 
 ---
 
 ### Admin Dashboard
-Administrative dashboard for managing products, orders, and store statistics.
+Administrative dashboard for managing products, orders, revenue statistics, and overall store analytics.
 
 ![Admin Panel](screenshots/pic4.png)
-
----
 
 ## Learning Outcomes
 
